@@ -1,24 +1,22 @@
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-
 from langchain_google_genai import GoogleGenerativeAI
 from langchain.llms import google_palm
 import google.generativeai as palm
 from langchain.embeddings import GooglePalmEmbeddings
-
 from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.vectorstores import VectorStore
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 import os
-
-
 from dotenv import load_dotenv
 from utils import get_pdf_text
 
-os.environ['GOOGLE_API_KEY'] = "GOOGLE_API_KEY"
+
+# 2. Access the GOOGLE_API_KEY from the environment
+GOOGLE_API_KEY = "AIzaSyAWs9X8DXz-2XFEvxym5FqEr3cxQEpyLUE"
 
 
 def get_pdf_text(pad_doc):
@@ -30,7 +28,7 @@ def get_pdf_text(pad_doc):
     return text
 
 def get_text_chunks(text):
-    splitter = RecursiveCharacterTextSplitter(chunk_size = 10000, chunk_overlap = 1000)
+    splitter = RecursiveCharacterTextSplitter(chunk_size = 1000, chunk_overlap = 100)
     chuncks = splitter.split_text(text)
     return chuncks
 
@@ -41,7 +39,7 @@ def get_vector_store(text_chunk):
 
 def get_conversational_chain(vector_store):
     
-    llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key= "GOOGLE_API_KEY")
+    llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key= GOOGLE_API_KEY)
     memory = ConversationBufferMemory(memory_key = "chat_history", return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vector_store.as_retriever(), memory=memory)
     return conversation_chain
