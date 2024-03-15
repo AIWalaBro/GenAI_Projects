@@ -3,7 +3,7 @@ import asyncio
 from langchain.document_loaders.sitemap import SitemapLoader
 from langchain_community.vectorstores import Pinecone
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter 
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 
 # Functions to Fetch data from website
