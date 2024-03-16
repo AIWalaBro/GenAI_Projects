@@ -7,7 +7,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 
 # Functions to Fetch data from website
-def get_sitemap(sitemap_url):
+def get_website_data(sitemap_url):
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     loader = SitemapLoader(sitemap_url)
