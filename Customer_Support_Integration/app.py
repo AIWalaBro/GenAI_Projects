@@ -76,5 +76,10 @@ if submit:
         #Displaying search results
         st.write("search results list....")
         
+       
         for document in relavant_docs:
-            
+            st.write("👉**Result : "+ str(relavant_docs.index(document)+1)+"**")
+            st.write("**Info**: "+document.page_content)
+            st.write("**Link**: "+ document.metadata['source'])
+    else:
+        st.sidebar.error("Ooopssss!!! Please provide API keys.....")
