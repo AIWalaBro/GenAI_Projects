@@ -56,5 +56,5 @@ def pull_from_pinecone(pinecone_apikey,pinecone_environment,pinecone_index_name,
 # to search quesry and get result on the basis of semantic search
 def get_similar_docs(index, query, k=2):
     similar_docs = index.similarity_search(query, k=k)
-    return similar_docs
+    return similar_docs 
 
