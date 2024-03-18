@@ -1,5 +1,5 @@
 # Amazon BedRock Hands on
-![AmazonBedRock](https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg)
+![AmazonBedRock](https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg=250x250)
 
 ``` bash
 1. aws configure
