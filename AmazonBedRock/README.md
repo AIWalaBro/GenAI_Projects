@@ -1,8 +1,5 @@
 # Amazon BedRock Hands on
-
-<!-- ![AMAZON BEDROCK](![alt text](<amazon image.jpeg>)) -->
-<!-- ![Amazon BedRock](<amazon image-1.jpeg>) -->
-![Amazon BedRock](https://www.bing.com/images/create/give-me-amazon-bedrock-name-inside-neural-network-/1-65f7f7aa321047b1b8ea1fdd8ac3916f?id=75x9nku7gaYiVFkhth2%2Bhw.MTFXX6MxfoDR4rXwo%2FYnVA&view=detailv2&idpp=genimg&thid=OIG1.fluV87PNNMH_dISgUOoG&darkschemeovr=1&edgehub=1&form=GCRIDP)
+![AmazonBedRock](https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg)
 
 ``` bash
 1. aws configure
