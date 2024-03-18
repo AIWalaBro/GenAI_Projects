@@ -16,7 +16,7 @@ from utils import get_pdf_text
 
 
 # 2. Access the GOOGLE_API_KEY from the environment
-GOOGLE_API_KEY = "AIzaSyAWs9X8DXz-2XFEvxym5FqEr3cxQEpyLUE"
+GOOGLE_API_KEY = "your_google_api_key"
 
 
 def get_pdf_text(pad_doc):
