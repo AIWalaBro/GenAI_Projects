@@ -1,20 +1,31 @@
 import boto3
 import json
 
-prompt_data = "Act like as Shakespeare and write a poem on machine learning"
+prompt_data = "Act like as Shakespeare and write a poem on Mumma in only 3 lines"
 
-bedrock = boto3.client.bedrock(service_name = "bedrock-runtime")
+# bedrock = boto3.client.bedrock(service_name = "bedrock-runtime")
+bedrock=boto3.client(service_name="bedrock-runtime")
 
 payload = {
-            "prompt": "[INST]"+{prompt_data}+"[/INST]",
+            # "prompt": "[INST]"+{prompt_data}+"[/INST]",
+            "prompt":"[INST]"+ prompt_data +"[/INST]",
             "max_gen_len" : 512,
             "temperature" : 0.5,
-            "top_p" : 0.9,
-           
+            "top_p" : 0.9,          
+}
+
+
+bedrock=boto3.client(service_name="bedrock-runtime")
+payload={
+    "prompt":"[INST]"+ prompt_data +"[/INST]",
+    "max_gen_len":512,
+    "temperature":0.5,
+    "top_p":0.9
 }
 
 body = json.dumps(payload)
-model_id = "meta.llama2-70b-chat-v1",
+model_id = "meta.llama2-70b-chat-v1"
+
 response = bedrock.invoke_model(
     body = body,
     modelId = model_id,
@@ -23,6 +34,9 @@ response = bedrock.invoke_model(
     
 )
 
-response_body = json.loads(response.get("body".read()))
-response_text = response_body['geneation']
+# response_body = json.loads(response.get("body".read()))
+response_body=json.loads(response.get("body").read())
+
+# response_text = response_body['geneation']
+response_text=response_body['generation']
 print(response_text)
