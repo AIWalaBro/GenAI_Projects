@@ -1,0 +1,2 @@
+boto3 # helps to connet all the services avaiable inside amazonbedrock
+awscli
