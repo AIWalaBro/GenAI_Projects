@@ -1,7 +1,7 @@
 # Amazon BedRock Hands on
 <!-- ![AmazonBedRock](https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg) -->
 
-<img src="https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg" height="500" width="500">
+<img src="https://github.com/AIWalaBro/GenAI_Projects/blob/31224aa8124418d71789fbe419017837afed2a4a/AmazonBedRock/amazon%20image.jpeg" align="centre" height="500" width="500">
 
 ``` bash
 1. aws configure
