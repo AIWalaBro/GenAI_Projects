@@ -1,6 +1,7 @@
 # Amazon BedRock Hands on
 
-![AMAZON BEDROCK](https://noticias.ai/wp-content/uploads/2023/04/bedrock-amazon.jpg)
+<!-- ![AMAZON BEDROCK](![alt text](<amazon image.jpeg>)) -->
+![Amazon BedRock](<amazon image-1.jpeg>)
 
 ``` bash
 1. aws configure
