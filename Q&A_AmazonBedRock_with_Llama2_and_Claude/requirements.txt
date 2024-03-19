@@ -4,4 +4,3 @@ pypdf
 langchain
 streamlit
 faiss-cpu
-
