@@ -15,26 +15,13 @@ load_dotenv()
 # load api key from .env variable
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-# function for gemini reponse
-# def get_gemini_response(input):
-#     model = genai.GenerativeModel('gemini-pro')
-#     response = model.generate_content(input)
-#     return response.text
 
 def get_gemini_repsonse(input):
     model=genai.GenerativeModel('gemini-pro')
     response=model.generate_content(input)
     return response.text
 
-# def input_pdf_text(uploaded_pdf):
-#     reader = pdf.PdfReader(uploaded_pdf)
-#     text=""
-#     text = ""
-#     for page in reader(len(reader.pages)):
-#         page = reader.pages['page']
-#         text += str(page.extract_text)
-#         return text
-    
+
 def input_pdf_text(uploaded_file):
     reader=pdf.PdfReader(uploaded_file)
     text=""
