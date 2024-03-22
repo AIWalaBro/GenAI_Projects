@@ -10,6 +10,7 @@
 
 
 # Demo video link on loom
+- [click here to watch demo link](https://www.loom.com/share/0c69c2bb101445cda8d2296873e3b0bf?sid=2baa9043-c80f-43e3-b469-fa26e1d4334e)
 
 # Steps to run this project:
 ```bash
