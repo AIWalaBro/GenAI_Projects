@@ -2,7 +2,7 @@
 
 
 
-### Mind map of Multilanguage Invoice Extractor Project Using Google Gemini
+###                   Mind map of Multilanguage Invoice Extractor Project Using Google Gemini
 <p align="center">
   <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Multilanguage_Invoice_Extractor_using_GoogleGeminiPro/mind_map1_page-0001.jpg" width=50% height=30%>
 </p>
