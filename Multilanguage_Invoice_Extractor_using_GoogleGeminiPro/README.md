@@ -4,7 +4,7 @@
 
 ###
 <p align="center">
-  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Multilanguage_Invoice_Extractor_using_GoogleGeminiPro/MIND%20MAP.png" alt="Mind map of invoice extractor" width="300">
+  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Multilanguage_Invoice_Extractor_using_GoogleGeminiPro/mind_map1_page-0001.jpg" width=50% height=50%>
 </p>
 
 # Demo link
