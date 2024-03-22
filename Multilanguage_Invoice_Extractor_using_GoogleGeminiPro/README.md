@@ -1,6 +1,6 @@
 # Multilanguage Invoice Extractor PROJECT USING GOOGLE GEMINI Pro
 
-![Invoice Extract demo mind map](working_mind_map.pdf)
+![Invoice Extract demo mind map](https://github.com/AIWalaBro/GenAI_Projects/blob/main/Multilanguage_Invoice_Extractor_using_GoogleGeminiPro/working%20mind%20map_page-0001.jpg)
 
 
 # Demo link
