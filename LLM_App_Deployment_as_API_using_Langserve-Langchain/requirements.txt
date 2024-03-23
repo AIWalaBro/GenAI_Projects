@@ -1,6 +1,15 @@
+# langchain
+# langchain-openai
+# langchain-core
+# python-dotenv
+# fastapi
+# uvicorn
+# langserve
+
 langchain
-langchain-openai
-langchain-core
+langchain_openai 
+langchain_core
 python-dotenv
+langserve
 fastapi
 uvicorn
