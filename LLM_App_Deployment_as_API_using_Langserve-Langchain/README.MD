@@ -1,6 +1,21 @@
 # Deploy LLM App as api using Langserve-Langchain
 
 ## Steps to install
+
+```bash
+- conda create -p venv_langserve python=3.10 -y
+```
+```bash
+- conda activate venv_langserve
+```
+```bash
+- pip install -r requirements.txt
+```
+```bash
+- python app.py
+- python client.py
+```
+
 ```bash
 `Note:` if you get version issues, please install 
 if version issue :
@@ -10,10 +25,10 @@ else:
     - pip install -U langchain-openai
         - from langchain_openai import ChatOpenAI
 
-##### this for the server
+# this for the server
 - pip install sse_starlette
 
-#### if pydantic erro comes
+# if pydantic erro comes
 - pip install pydantic==1.10.13
 ```
 
