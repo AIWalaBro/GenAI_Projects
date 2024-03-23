@@ -1,0 +1,7 @@
+# langchain mysql
+ipykernel
+langchain 
+langchain-community 
+langchain-openai
+# %pip install --upgrade --quiet  langchain langchain-community langchain-openai
+# pip install langchain mysql-connector-python 

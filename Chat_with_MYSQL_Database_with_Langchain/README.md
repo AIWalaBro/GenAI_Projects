@@ -34,4 +34,5 @@
 
 ```
 
-
+## Cuation while Load the database
+`IMPORTANT:` When using a real database, you should never use any user with WRITE permissions in an application like this one. Always use a user with READ permissions only and limit its scope. Otherwise, you might expose your database to SQL injection attacks.
