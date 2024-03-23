@@ -1,7 +1,24 @@
 # Deploy LLM App as api using Langserve-Langchain
 
+## Steps to install
+```bash
+`Note:` if you get version issues, please install 
+if version issue :
+    - pip install -U langchain-community
+        - from langchain_community.chat_models import ChatOpenAI
+else:
+    - pip install -U langchain-openai
+        - from langchain_openai import ChatOpenAI
 
-# Requirement file libraries used purposes
+##### this for the server
+- pip install sse_starlette
+
+#### if pydantic erro comes
+- pip install pydantic==1.10.13
+```
+
+## Requirement file libraries used purposes
+
 `Langchain:` It appears to be a software development framework or tool related to language processing or blockchain technology.
 
 
@@ -18,3 +35,6 @@
 
 
 `Uvicorn:` An ASGI (Asynchronous Server Gateway Interface) server that serves FastAPI applications, enabling high-performance asynchronous web applications in Python.
+
+
+
