@@ -53,6 +53,8 @@ Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It ca
 
 ### To check which local host is runnning
 ```bash
+- mysql -u root -p
+
 - mysql -u root -padmin
 ```
 
