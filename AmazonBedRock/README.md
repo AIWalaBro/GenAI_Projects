@@ -15,7 +15,7 @@
 
 
 ``` bash
-3.claude model = ""ai21.j2-mid-v1"
+3.claude model = "ai21.j2-mid-v1"
 ```
 
 ``` bash
