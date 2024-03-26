@@ -1,1 +1,1 @@
-# Marketing Camapaign with the help of Langchain
+# Marketing Campaign with the help of Langchain
