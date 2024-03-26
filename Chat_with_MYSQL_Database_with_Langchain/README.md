@@ -33,7 +33,10 @@
 - SOURCE "SQL file path to load the database"
 
 ```
-### to check which local host is runnning
+
+## Commands:
+
+### To check which local host is runnning
 ```bash
 - mysql -u root -padmin
 ```
