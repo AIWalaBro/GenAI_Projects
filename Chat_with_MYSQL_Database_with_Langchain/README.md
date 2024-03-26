@@ -33,6 +33,15 @@
 - SOURCE "SQL file path to load the database"
 
 ```
+### to check which local host is runnning
+```bash
+- mysql -u root -padmin
+```
+
+### to see on which port you are running
+```bash
+- show variables like 'port';
+```
 
 ## Caution while Load the database
-`IMPORTANT:` When using a real database, you should never use any user with WRITE permissions in an application like this one. Always use a user with READ permissions only and limit its scope. Otherwise, you might expose your database to SQL injection attacks.
+`IMPORTANT:` When using a read database, you should never use any user with WRITE permissions in an application like this one. Always use a user with READ permissions only and limit its scope. Otherwise, you might expose your database to SQL injection attacks.
