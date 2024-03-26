@@ -12,6 +12,21 @@
   <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_with_MYSQL_Database_with_Langchain/image.png" width=100% height=75%>
 </p>
 
+## Chinook Database
+
+Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. Chinook database is an alternative to the Northwind database, being ideal for demos and testing ORM tools targeting single and multiple database servers.
+
+### Supported Database Servers
+
+* DB2
+* MySQL
+* Oracle
+* PostgreSQL
+* SQL Server
+* SQL Server Compact
+* SQLite
+
+
 # Step to run this project
 
 ### step 1: setup the venv
