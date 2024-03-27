@@ -1,1 +1,7 @@
-null
+streamlit
+langchain
+langchain-openai
+langchain-groq
+mysql-connector-python # itstalling mysql driver for sql alchemy
+python-dotenv
+
