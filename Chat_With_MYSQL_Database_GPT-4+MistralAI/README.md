@@ -1,13 +1,13 @@
-# Chat with MYSQL Database with the help of Python and Langchain
+# Chat with MYSQL Database with the help of GPT and GROQ
 
 
-# Database workflow
+# Flow Chart
 <p align="center">
   <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_With_MYSQL_Database_GPT-4+MistralAI/Flowchart_mysql_chatbot1.drawio.svg" width=75% height=50%>
 </p>
 
 
-# Database look
+# Database 
 <p align="center">
   <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_with_MYSQL_Database_with_Langchain/image.png" width=75% height=75%>
 </p>
