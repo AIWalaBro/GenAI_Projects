@@ -1,4 +1,4 @@
-# Chat with MYSQL Database with the help of GPT and GROQ
+# Chat with MYSQL Database with the help of GPT and Groq
 
 
 # Flow Chart
@@ -31,8 +31,8 @@ Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It ca
 
 ### step 1: setup the venv
 ```bash
-- conda create -p venv_mysql_langchain python=3.10 -y
-- conda activate venv_mysql_langchain
+- conda create -p venv_mysql_gui python=3.10 -y
+- conda activate venv_mysql_gui
 
 ```
 
