@@ -3,13 +3,13 @@
 
 # Database workflow
 <p align="center">
-  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_With_MYSQL_Database_GPT-4+MistralAI/Flowchart_mysql_chatbot1.drawio.svg" width=100% height=50%>
+  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_With_MYSQL_Database_GPT-4+MistralAI/Flowchart_mysql_chatbot1.drawio.svg" width=75% height=75%>
 </p>
 
 
 # Database look
 <p align="center">
-  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_with_MYSQL_Database_with_Langchain/image.png" width=100% height=75%>
+  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_with_MYSQL_Database_with_Langchain/image.png" width=75% height=75%>
 </p>
 
 ## Chinook Database
