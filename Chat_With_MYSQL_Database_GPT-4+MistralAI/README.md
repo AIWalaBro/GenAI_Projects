@@ -10,9 +10,9 @@
 
 
 ## Brief Explanation of How the Chatbot Works
-The chatbot works by taking a user's natural language query, converting it into a SQL query using GPT-4, executing the query on a SQL database, and then presenting the results back to the user in natural language. This process involves several steps of data processing and interaction with the OpenAI API and a SQL database, all seamlessly integrated into a Streamlit application.
+- The chatbot works by taking a user's natural language query, converting it into a SQL query using GPT-4, executing the query on a SQL database, and then presenting the results back to the user in natural language. This process involves several steps of data processing and interaction with the OpenAI API and a SQL database, all seamlessly integrated into a Streamlit application.
 
-Consider the following diagram to understand how the different chains and components are built:
+- Consider the following diagram to understand how the different chains and components are built:
 
 
 # Flow Chart
@@ -28,7 +28,7 @@ Consider the following diagram to understand how the different chains and compon
 
 ## Chinook Database
 
-Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. Chinook database is an alternative to the Northwind database, being ideal for demos and testing ORM tools targeting single and multiple database servers.
+- Chinook is a sample database available for SQL Server, Oracle, MySQL, etc. It can be created by running a single SQL script. Chinook database is an alternative to the Northwind database, being ideal for demos and testing ORM tools targeting single and multiple database servers.
 
 ### Supported Database Servers
 
