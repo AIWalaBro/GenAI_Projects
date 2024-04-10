@@ -1,1 +1,1 @@
-# GeneartiveAI Projects  
+# GenerativeAI Projects  
