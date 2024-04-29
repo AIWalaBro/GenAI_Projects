@@ -3,9 +3,9 @@
 ## 1.Flowchart for CSV Question Answering Application
 
 
-#  workflow
+#  flowchart
 <p align="center">
-  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_With_CSV_Via_Langchain/flow_chart.png" width=100% height=100%>
+  <img src="https://github.com/AIWalaBro/GenAI_Projects/blob/main/Chat_With_CSV_Via_Langchain/flow_chart.png" width=75% height=75%>
 </p>
 
 ## 2. Setup of Project
